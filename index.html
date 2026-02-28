@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day Predictor AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<style>
+  @import url('styles.css');
+</style>
+
+</head>
+<body>
+<div class="scanlines"></div>
+<div class="card">
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+
+  <div class="title">Day Predictor AI</div>
+  <div class="warning">⚠ Please kids stay away ⚠</div>
+  <div class="question">Tomorrow is which day?</div>
+
+  <div class="days-grid">
+    <button class="day-btn" onclick="select(this)">Monday</button>
+    <button class="day-btn" onclick="select(this)">Tuesday</button>
+    <button class="day-btn" onclick="select(this)">Wednesday</button>
+    <button class="day-btn" onclick="select(this)">Thursday</button>
+    <button class="day-btn" onclick="select(this)">Friday</button>
+    <button class="day-btn" onclick="select(this)">Saturday</button>
+    <button class="day-btn sunday-row" onclick="select(this)">Sunday</button>
+  </div>
+
+  <button class="predict-btn" onclick="predict()">PREDICT</button>
+
+  <div class="status">
+    <div class="spinner" id="spinner"></div>
+    <div class="status-text" id="statusText"></div>
+    <div class="result" id="result"></div>
+    <div class="result-sub" id="resultSub"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
