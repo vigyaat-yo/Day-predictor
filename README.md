@@ -30,7 +30,7 @@ A groundbreaking artificial intelligence system capable of predicting what day t
 
 ## Why
 
-Final year project 💀
+First year project 💀
 
 ## License
 
